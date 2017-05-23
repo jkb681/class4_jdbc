@@ -48,7 +48,7 @@ public class MenuDAO {
 				String url = prop.getProperty("url");
 				String id = prop.getProperty("dboid");
 				String pw = prop.getProperty("dbopwd");
-
+ 
 				try {// 드라이버로딩
 					Class.forName(driver);
 					
