@@ -50,6 +50,7 @@ public class MenuDAO {
 
 				try {// 드라이버로딩
 					Class.forName(driver);
+					
 					con = DriverManager.getConnection(url, id, pw);
 				} catch (ClassNotFoundException e) {
 					e.printStackTrace();
