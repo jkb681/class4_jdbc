@@ -42,6 +42,7 @@ public class MenuDAO {
 		try {
 			File file = new File("C:/dev/jdbc_git/jdbc_prj/src/kr/co/sist/menu/dao/MenuDAO.java");
 			if (file.exists()) {
+				
 				prop.load(new FileInputStream(file));
 				String driver = prop.getProperty("driver");
 				String url = prop.getProperty("url");
